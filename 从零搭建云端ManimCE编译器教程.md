@@ -70,6 +70,9 @@ class FirstScene(Scene):
         # 创建一个圆形
         circle = Circle(color=BLUE)
         # 显示圆形
+
+
+        
         self.play(Create(circle))
         # 等待一秒
         self.wait()
